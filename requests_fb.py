@@ -99,7 +99,7 @@ class requests_fb:
             "server_timestamps": True
         }
         try:
-            response = self.httpx.post(url="https://www.facebook.com/api/graphql/",headers = self.header_post,data=data,proxies=proxies,timeout=1)
+            response = self.httpx.post(url="https://www.facebook.com/api/graphql/",headers = self.header_post,data=data,proxies=proxies,timeout=5)
         except:
             pass
 
@@ -153,6 +153,6 @@ class requests_fb:
         
 
         try:
-            response = self.httpx.post(url="https://www.facebook.com/api/graphql/",headers = self.header_post,data=data,proxies=proxies,timeout=1)
+            response = self.httpx.post(url="https://www.facebook.com/api/graphql/",headers = self.header_post,data=data,proxies=proxies,timeout=5)
         except:
             pass
