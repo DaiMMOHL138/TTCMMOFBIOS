@@ -400,7 +400,6 @@ class Main():
                     time.sleep(2)
                     data = self.TTC.get_jobs_comment(cookie)
                     max = len(data)
-                    print(data)
                     if data == []:
                         print(colorama.Fore.RED + "Không có công việc CMT chéo nào.",end="\r")
                         time.sleep(3)
