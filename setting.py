@@ -121,5 +121,5 @@ def delay(seconds):
     for i in range(seconds, -1, -1):
         print(f'{colorama.Fore.CYAN}Vui lòng chờ {i} giây                    ', end="\r")
         time.sleep(1)
-min_delay = 10
-max_delay = 20
+min_delay = 0
+max_delay = 0
